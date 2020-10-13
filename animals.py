@@ -1,212 +1,34 @@
 # import the python datetime module to help us create a timestamp
 from datetime import date
+from copperhead import Copperhead
+from coralsnake import Coralsnake
+from coy import Coy
+from donkey import Donkey
+from duck import Duck
+from frog import Frog
+from goat import Goat
+from goldfish import Goldfish
+from goose import Goose
+from horse import Horse
+from llama import Llama
+from moccassin import Moccassin
+from python import Python
+from ratsnake import Ratsnake
+from sheep import Sheep
 
-class Llama:
 
-    def __init__(self):
-        # Establish the properties of each animal
-        # with a default value
-        self.name = ""
-        self.species = ""
-        self.walking = True
-        self.date_added = date.today()
-
-class Donkey:
-
-    def __init__(self):
-        # Establish the properties of each animal
-        # with a default value
-        self.name = ""
-        self.species = ""
-        self.walking = True
-        self.date_added = date.today()
-
-class Goat:
-
-    def __init__(self):
-        # Establish the properties of each animal
-        # with a default value
-        self.name = ""
-        self.species = ""
-        self.walking = True
-        self.date_added = date.today()
-
-class Sheep:
-
-    def __init__(self):
-        # Establish the properties of each animal
-        # with a default value
-        self.name = ""
-        self.species = ""
-        self.walking = True
-        self.date_added = date.today()
-
-class Horse:
-
-    def __init__(self):
-        # Establish the properties of each animal
-        # with a default value
-        self.name = ""
-        self.species = ""
-        self.walking = True
-        self.date_added = date.today()
-
-class Ratsnake:
-
-    def __init__(self):
-        # Establish the properties of each animal
-        # with a default value
-        self.name = ""
-        self.species = ""
-        self.slithering = True
-        self.date_added = date.today()
-
-class Copperhead:
-
-    def __init__(self):
-        # Establish the properties of each animal
-        # with a default value
-        self.name = ""
-        self.species = ""
-        self.slithering = True
-        self.date_added = date.today()
-
-class Python:
-
-    def __init__(self):
-        # Establish the properties of each animal
-        # with a default value
-        self.name = ""
-        self.species = ""
-        self.slithering = True
-        self.date_added = date.today()
-
-class Moccassin:
-
-    def __init__(self):
-        # Establish the properties of each animal
-        # with a default value
-        self.name = ""
-        self.species = ""
-        self.slithering = True
-        self.date_added = date.today()
-
-class Coralsnake:
-
-    def __init__(self):
-        # Establish the properties of each animal
-        # with a default value
-        self.name = ""
-        self.species = ""
-        self.slithering = True
-        self.date_added = date.today()
-
-class Goldfish:
-
-    def __init__(self):
-        # Establish the properties of each animal
-        # with a default value
-        self.name = ""
-        self.species = ""
-        self.swimming = True
-        self.date_added = date.today()
-
-class Duck:
-
-    def __init__(self):
-        # Establish the properties of each animal
-        # with a default value
-        self.name = ""
-        self.species = ""
-        self.swimming = True
-        self.date_added = date.today()
-
-class Coy:
-
-    def __init__(self):
-        # Establish the properties of each animal
-        # with a default value
-        self.name = ""
-        self.species = ""
-        self.swimming = True
-        self.date_added = date.today()
-
-class Frog:
-
-    def __init__(self):
-        # Establish the properties of each animal
-        # with a default value
-        self.name = ""
-        self.species = ""
-        self.swimming = True
-        self.date_added = date.today()
-
-class Goose:
-
-    def __init__(self):
-        # Establish the properties of each animal
-        # with a default value
-        self.name = ""
-        self.species = ""
-        self.swimming = True
-        self.date_added = date.today()
-
-miss_fuzz = Llama()
-miss_fuzz.name = "Miss Fuzz"
-miss_fuzz.species = "domestic llama"
-
-hee_haw = Donkey()
-hee_haw.name = "Hee Haw"
-hee_haw.species = "mountain donkey"
-
-satan = Goat()
-satan.name = "Satan"
-satan.species = "pygmy goat"
-
-perm = Sheep()
-perm.name = "Perm"
-perm.species = "curly goat"
-
-ed = Horse()
-ed.name = "Mr. Ed"
-ed.species = "Tennessee walking horse"
-
-cuddles = Ratsnake()
-cuddles.name = "Cuddles"
-cuddles.species = "Ratsnake"
-
-kissy = Copperhead()
-kissy.name = "Kissy"
-kissy.species = "Copperhead"
-
-monty = Python()
-monty.name = "Monty"
-monty.species = "Python"
-
-cotton = Moccassin()
-cotton.name = "Cotton"
-cotton.species = "Cotton Mouth"
-
-rty = Coralsnake
-rty.name = "Red Touches Yellow"
-rty.species = "coral snake"
-
-tangerine = Goldfish()
-tangerine.name = "Tangerine"
-tangerine.species = "goldfish"
-
-waddle = Duck()
-waddle.name = "waddle"
-waddle.species = "mallard"
-
-ki = Coy()
-ki.name = "Ki"
-ki.species = "coy"
-
-ribbit = Frog()
-ribbit.name = "Ribbit"
-ribbit.species = "bull frog"
-
-the_devil = Goose()
-the_devil.name = "The Devil"
-the_devil.species = "Goose"
+miss_fuzz = Llama('Miss Fuzz', 'domestic llama')
+hee_haw = Donkey('Hee Haw', 'mountain donkey')
+satan = Goat('Satan', 'pygmy goat')
+perm = Sheep('Perm', 'curly sheep')
+ed = Horse('Mr. Ed', 'Tennessee walking horse')
+cuddles = Ratsnake('Cuddles', 'Ratsnake')
+kissy = Copperhead('Kissy', 'Copperhead')
+monty = Python('Monty', 'python')
+cotton = Moccassin('Cotton', 'cotton mouth')
+rainbow = Coralsnake('Rainbow', 'coral snake')
+tangerine = Goldfish('Tangerine', 'goldfish')
+waddle = Duck('Waddle', 'mallard')
+ki = Coy('Ki', 'coy')
+ribbit = Frog('Ribbit', 'bull frog')
+the_devil = Goose('The Devil', 'goose')
