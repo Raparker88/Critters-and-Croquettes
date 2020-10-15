@@ -17,11 +17,11 @@ from ratsnake import Ratsnake
 from sheep import Sheep
 from attractions import Wetlands, SnakePit, PettingZoo
 
-varmint_village = PettingZoo("Varmint Village")
-slither_inn = SnakePit("Slither Inn")
-critter_cove = Wetlands("Critter Cove")
+varmint_village = PettingZoo("Varmint Village", "cute and fuzzy critters to cuddle")
+slither_inn = SnakePit("Slither Inn", "slithering snakes and creepy crawlies")
+critter_cove = Wetlands("Critter Cove", "fins and feathers in all colors")
 
-miss_fuzz = Llama('Miss Fuzz', 'domestic llama', 'morning','grass')
+miss_fuzz = Llama('Miss Fuzz', 'domestic llama', 'morning','grass', 12345)
 hee_haw = Donkey('Hee Haw', 'mountain donkey', 'midday','apples')
 satan = Goat('Satan', 'pygmy goat', 'afternoon','grass')
 perm = Sheep('Perm', 'curly sheep', 'morning','grass')
@@ -57,3 +57,5 @@ varmint_village.printReport()
 slither_inn.printReport()
 critter_cove.printReport()
 
+miss_fuzz.chip_num = 6789
+print(miss_fuzz.chip_num)

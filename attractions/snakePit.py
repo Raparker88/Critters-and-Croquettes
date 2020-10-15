@@ -1,8 +1,8 @@
 class SnakePit:
 
-    def __init__(self, name):
+    def __init__(self, name, description):
         self.attraction_name = name
-        self.description = "slithering snakes and creepy crawlies"
+        self.description = description
         self.animals = list()
 
     def add(self, animal):
