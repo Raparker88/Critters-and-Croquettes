@@ -15,7 +15,11 @@ from moccassin import Moccassin
 from python import Python
 from ratsnake import Ratsnake
 from sheep import Sheep
+from attractions import Wetlands, SnakePit, PettingZoo
 
+varmint_village = PettingZoo("Varmint Village")
+slither_inn = SnakePit("Slither Inn")
+critter_cove = Wetlands("Critter Cove")
 
 miss_fuzz = Llama('Miss Fuzz', 'domestic llama', 'morning','grass')
 hee_haw = Donkey('Hee Haw', 'mountain donkey', 'midday','apples')
@@ -33,5 +37,23 @@ ki = Coy('Ki', 'coy','fish flakes')
 ribbit = Frog('Ribbit', 'bull frog','flies')
 the_devil = Goose('The Devil', 'goose','corn kernels')
 
+varmint_village.add(miss_fuzz)
+varmint_village.add(hee_haw)
+varmint_village.add(satan)
+varmint_village.add(perm)
+varmint_village.add(ed)
+slither_inn.add(cuddles)
+slither_inn.add(kissy)
+slither_inn.add(monty)
+slither_inn.add(cotton)
+slither_inn.add(rainbow)
+critter_cove.add(tangerine)
+critter_cove.add(waddle)
+critter_cove.add(ki)
+critter_cove.add(ribbit)
+critter_cove.add(the_devil)
 
-print(the_devil)
+varmint_village.printReport()
+slither_inn.printReport()
+critter_cove.printReport()
+
