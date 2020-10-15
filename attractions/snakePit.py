@@ -12,3 +12,9 @@ class SnakePit:
         print(f'{self.attraction_name} is where you\'ll find {self.description} of all sizes including')
         for animal in self.animals:
             print(f'* {animal.name} the {animal.species}')
+    
+    @property
+    def last_critter_added(self):
+        lastCritter = self.animals[-1]
+        return (f'{lastCritter.name} the {lastCritter.species}')
+

@@ -59,3 +59,5 @@ critter_cove.printReport()
 
 miss_fuzz.chip_num = 6789
 print(miss_fuzz.chip_num)
+
+print(slither_inn.last_critter_added)
