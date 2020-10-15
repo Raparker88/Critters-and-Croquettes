@@ -1,18 +1,6 @@
-from copperhead import Copperhead
-from coralsnake import Coralsnake
-from coy import Coy
-from donkey import Donkey
-from duck import Duck
-from frog import Frog
-from goat import Goat
-from goldfish import Goldfish
-from goose import Goose
-from horse import Horse
-from llama import Llama
-from moccassin import Moccassin
-from python import Python
-from ratsnake import Ratsnake
-from sheep import Sheep
+from animals import Copperhead, Coralsnake, Coy, Donkey, Duck
+from animals import Frog, Goat, Goldfish, Goose, Horse, Llama
+from animals import Moccassin, Python, Ratsnake, Sheep
 from attractions import Wetlands, SnakePit, PettingZoo
 
 varmint_village = PettingZoo("Varmint Village", "cute and fuzzy critters to cuddle")
@@ -62,3 +50,6 @@ print(slither_inn.last_critter_added)
 
 miss_fuzz.feed()
 tangerine.feed()
+
+the_devil.feed()
+

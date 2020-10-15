@@ -1,1 +1,0 @@
-from .horse import Horse

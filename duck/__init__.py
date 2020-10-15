@@ -1,1 +1,0 @@
-from .duck import Duck
