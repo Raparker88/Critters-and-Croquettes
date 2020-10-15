@@ -17,11 +17,11 @@ from ratsnake import Ratsnake
 from sheep import Sheep
 
 
-miss_fuzz = Llama('Miss Fuzz', 'domestic llama')
-hee_haw = Donkey('Hee Haw', 'mountain donkey')
-satan = Goat('Satan', 'pygmy goat')
-perm = Sheep('Perm', 'curly sheep')
-ed = Horse('Mr. Ed', 'Tennessee walking horse')
+miss_fuzz = Llama('Miss Fuzz', 'domestic llama', 'morning')
+hee_haw = Donkey('Hee Haw', 'mountain donkey', 'midday')
+satan = Goat('Satan', 'pygmy goat', 'afternoon')
+perm = Sheep('Perm', 'curly sheep', 'morning')
+ed = Horse('Mr. Ed', 'Tennessee walking horse', 'midday')
 cuddles = Ratsnake('Cuddles', 'Ratsnake')
 kissy = Copperhead('Kissy', 'Copperhead')
 monty = Python('Monty', 'python')
