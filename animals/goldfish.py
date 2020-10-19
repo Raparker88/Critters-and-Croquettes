@@ -4,8 +4,8 @@ from movements import Swimming
 
 class Goldfish(Animal, Swimming):
 
-     """A child of Animal from animals/animal.py and Swimming
-    movements/swimming.py parent classes"""
+    """A child of Animal from animals/animal.py and Swimming
+        movements/swimming.py parent classes"""
 
     def __init__(self, name, species, food, chip_num):
         Animal.__init__(self, name, species, food, chip_num) 

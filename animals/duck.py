@@ -4,7 +4,7 @@ from movements import Walking, Swimming
 
 class Duck(Animal, Walking, Swimming):
 
-     """a child of animal, walking and swimming parent class. Unique method self.quack()"""
+    """a child of animal, walking and swimming parent class. Unique method self.quack()"""
 
     def __init__(self, name, species, food, chip_num):
         Animal.__init__(self, name, species, food, chip_num) 

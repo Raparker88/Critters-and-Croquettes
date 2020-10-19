@@ -5,8 +5,8 @@ class Attraction:
         self.description = description
         self.animals = list()
 
-    def add(self, animal):
-        self.animals.append(animal)
+    # def add(self, animal):
+    #     self.animals.append(animal)
 
     def printReport(self):
         print(f'{self.attraction_name} is where you\'ll find {self.description} of all sizes including')

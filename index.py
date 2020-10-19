@@ -53,3 +53,5 @@ tangerine.feed()
 
 the_devil.feed()
 
+varmint_village.add(rainbow)
+

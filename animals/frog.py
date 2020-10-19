@@ -2,9 +2,9 @@ from datetime import date
 from .animal import Animal
 from movements import Swimming, Walking
 
-class Frog(Animal):
+class Frog(Animal, Swimming, Walking):
 
-     """a child of animal, walking and swimming parent class. Unique method self.quack()"""
+    """a child of animal, walking and swimming parent classes"""
 
     def __init__(self, name, species, food, chip_num):
         Animal.__init__(self, name, species, food, chip_num) 

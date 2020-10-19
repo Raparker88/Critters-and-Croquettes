@@ -4,7 +4,7 @@ from movements import Slithering
 
 class Ratsnake(Animal, Slithering):
 
-     """A child of Animal from animals/animal.py and Slithering 
+    """A child of Animal from animals/animal.py and Slithering 
     movements/slithering.py parent classes"""
 
     def __init__(self, name, species, food, chip_num):
